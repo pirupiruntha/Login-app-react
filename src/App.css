@@ -1,0 +1,52 @@
+.wrapper{
+    background-color: #48CAE4;
+    width: 1000px;
+    height: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.form-wrapper{
+    display: flex;
+    width: 400px;
+    background-color: azure;
+    padding: 10px 20px;
+    flex-direction: column;
+    border-radius: 10px;
+}
+form{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+h1{
+    text-align: center;
+    color: #03045E;
+}
+input{
+    padding: 5px 5px;
+    width: 98%;
+    outline: none;
+    border: 1px solid #000000;
+    border-radius: 5px;
+
+}
+input::placeholder{
+    font-size: small;
+    font-weight: lighter;
+    color: lavender;
+}
+.email,
+.password{
+    width: 100%;
+    display: flex;
+    margin-bottom: 15px;
+    flex-direction: column;
+    flex-direction: column;
+}
+label{
+    font-size: medium;
+    margin-bottom: 10px;
+    color: black;
+}
